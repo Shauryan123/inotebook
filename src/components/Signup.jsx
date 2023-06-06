@@ -50,7 +50,6 @@ export default function Signup() {
           method: "POST", // *GET, POST, PUT, DELETE, etc.
           headers: {
             "Content-Type": "application/json",
-            "auth-token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjQ2YzQyOWQ4YWY5YjJhOGEyNmU3Y2RlIn0sImlhdCI6MTY4NDgyMTk1N30.RheXv8kuTMVAh_4OfAF5iX5amM7TosxiGN0ltiDr_5M"
             // 'Content-Type': 'application/x-www-form-urlencoded',
           },
           // body data type must match "Content-Type" header
