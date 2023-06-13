@@ -17,7 +17,6 @@ const Dashboard = () => {
     useEffect(() => {
       if (localStorage.getItem("token")) {
         // console.log("HI I AM" + " " + localStorage.getItem('token'));
-        getNotes();
         getUser();
       } else {
         navigate("/login");

@@ -10,15 +10,15 @@ const Profile = (props) => {
 
   const navigate = useNavigate();
 
-//   useEffect(() => {
-//     if (localStorage.getItem('token')) {
-//       getUser();
-//       console.log('USER');
-//       console.log(user);
-//     } else {
-//       navigate('/login');
-//     }
-//   }, []);
+  useEffect(() => {
+    if (localStorage.getItem('token')) {
+      getUser();
+      console.log('USER');
+      console.log(user);
+    } else {
+      navigate('/login');
+    }
+  }, []);
 
   return (
     <div className="container">
