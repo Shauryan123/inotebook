@@ -1,0 +1,71 @@
+.login-page {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 30px;
+}
+
+.login-form {
+    width: 100%;
+}
+
+h2 {
+    text-align: left;
+}
+
+.s {
+    text-decoration: none;
+}
+
+.form-label,
+.form-text,
+.btn-primary {
+    color: #000000;
+}
+
+.background-image {
+    background-image: url("https://w0.peakpx.com/wallpaper/376/779/HD-wallpaper-road-aerial-view-car-forest-trees.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0;
+    margin: 0
+}
+
+.background-image3 {
+    background-image: url("https://w0.peakpx.com/wallpaper/376/779/HD-wallpaper-road-aerial-view-car-forest-trees.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0
+}
+
+@media screen and (max-width: 768px) {
+    .login-page {
+        flex-direction: column;
+    }
+    .login-form-container {
+        width: 100%;
+    }
+}

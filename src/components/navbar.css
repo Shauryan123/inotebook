@@ -1,0 +1,12 @@
+.navbar-custom {
+    background-color: #043b94;
+}
+
+
+/* Modify brand and text color */
+
+.navbar-custom .navbar-brand,
+.nav-item,
+.navbar-custom .navbar-text {
+    color: green;
+}
