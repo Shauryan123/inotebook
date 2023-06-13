@@ -1,0 +1,42 @@
+.custom-card {
+    display: flex;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.custom-card-image {
+    width: 30%;
+    object-fit: cover;
+}
+
+.custom-card-content {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.custom-card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.custom-card-description {
+    margin-top: 10px;
+}
+
+.custom-card-footer {
+    margin-top: auto;
+    text-align: right;
+}
+
+
+/* Media Query for smaller screens */
+
+@media (max-width: 768px) {
+    .custom-card {
+        flex-direction: column;
+    }
+    .custom-card-image {
+        width: 100%;
+    }
+}

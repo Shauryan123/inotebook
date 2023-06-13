@@ -8,7 +8,7 @@ const context = useContext(noteContext);
 const {getUser} = context;
 
  const [u, setu] = useState({name:'',email:'', password:''});
-  const texts = [`Welcome ${u.name}`, 'What would you like to do ?', 'We have got all your notes!']; // Array of texts to rotate
+  const texts = [`Welcome ${u.firstName}`, 'What would you like to do ?', 'We have got all your notes!']; // Array of texts to rotate
   const intervalTime = 2000; // Interval time in milliseconds
 
   const [currentIndex, setCurrentIndex] = useState(0);

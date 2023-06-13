@@ -14,6 +14,7 @@ const UserProfilePopup = () => {
     if (localStorage.getItem('token')) {
 
       getUser();
+      console.log(user);
 
     } else {
 
@@ -25,7 +26,7 @@ const UserProfilePopup = () => {
   return (
     <div className="user-profile-popup">
       <h3>User Profile</h3>
-      <p>Name: {user.name}</p>
+      <p>Name: {user.firstName}</p>
       <p>Email: {user.email}</p>
       {/* <p>Number of Notes: {user.numberOfNotes}</p> */}
       <p>Number of Notes: {user.numberOfNotes}</p>
